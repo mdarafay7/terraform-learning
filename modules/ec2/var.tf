@@ -1,9 +1,9 @@
 variable "ami"{
-    default = "ami-0443305dabd4be2bc"    
+    default = "ami-0f25b344af3f73199"    
 }
 
 variable "instance_type"{
-    default = "t2.micro"
+    default = "t2.nano"
 }
 
 variable "ec2_name"{
