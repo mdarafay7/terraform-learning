@@ -5,6 +5,6 @@ resource "aws_instance" "ec2-webapp"{
     tags = {
         Name = var.ec2_name
     }
-    region = "us-east-2"
+   
 
 }
