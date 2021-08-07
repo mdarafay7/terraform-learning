@@ -3,7 +3,7 @@ variable "ami"{
 }
 
 variable "instance_type"{
-    default = "t2.nano"
+    default = "t2.micro"
 }
 
 variable "ec2_name"{
@@ -13,4 +13,4 @@ variable "ec2_name"{
 variable "availability_zone"{
     default = "us-east-2a"
 
-}
+}  
